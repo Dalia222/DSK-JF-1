@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-html{
+html {
   overflow-x: hidden;
 }
 :root {
@@ -122,8 +124,8 @@ main .contact-data .head .menu {
   justify-content: center;
   align-items: center;
 }
-main .contact-data .head .menu .icon{
-    cursor: pointer;
+main .contact-data .head .menu .icon {
+  cursor: pointer;
 }
 main .contact-data .head .menu-link {
   position: absolute;
@@ -138,37 +140,36 @@ main .contact-data .head .menu-link {
   pointer-events: none;
   transition: all.3s ease;
 }
-main .contact-data .head .menu-link.show{
-    top:100%;
-    opacity: 1;
-    pointer-events: visible;
+main .contact-data .head .menu-link.show {
+  top: 100%;
+  opacity: 1;
+  pointer-events: visible;
 }
-main .contact-data .head .menu-link a{
-    display: block;
-    padding: 6px 16px;
-    font-size: 14px;
-    color: rgb(55, 54, 54);
-    transition: all.3s ease;
+main .contact-data .head .menu-link a {
+  display: block;
+  padding: 6px 16px;
+  font-size: 14px;
+  color: rgb(55, 54, 54);
+  transition: all.3s ease;
 }
-main .contact-data .head .menu-link a:hover{
-    background: rgb(232, 230, 230);
+main .contact-data .head .menu-link a:hover {
+  background: rgb(232, 230, 230);
 }
-
 
 /* CHAT */
-main .chat-box{
+main .chat-box {
   width: 100%;
   max-height: 300px;
-  overflow-y: auto ;
+  overflow-y: auto;
   scrollbar-width: none;
 }
-main .chat-box::-webkit-scrollbar{
+main .chat-box::-webkit-scrollbar {
   display: none;
 }
-main .chat-box .day{
+main .chat-box .day {
   text-align: center;
 }
-main .chat-box .day span{
+main .chat-box .day span {
   display: inline-block;
   padding: 6px 12px;
   border-radius: 20px;
@@ -177,9 +178,9 @@ main .chat-box .day span{
   font-size: 12px;
   font-weight: 600;
 }
-main .chat-box .msg img{
-  width:28px;
-  height:28px;
+main .chat-box .msg img {
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -188,47 +189,47 @@ main .chat-box .msg {
   grid-gap: 6px;
   align-items: flex-start;
 }
-main .chat-box .profile .username{
+main .chat-box .profile .username {
   font-size: 14px;
   font-weight: 600;
   display: inline-block;
   margin-right: 6px;
 }
-main .chat-box .profile .time{
+main .chat-box .profile .time {
   font-size: 12px;
   color: rgb(60, 59, 59);
 }
-main .chat-box .chat p{
+main .chat-box .chat p {
   font-size: 14px;
   padding: 6px 10px;
-  max-width:360px ;
+  max-width: 360px;
   display: inline-block;
   line-height: 150%;
 }
-main .chat-box .msg:not(.me) .chat p{
+main .chat-box .msg:not(.me) .chat p {
   border-radius: 0 10px 10px 10px;
   background: blue;
   color: whitesmoke;
 }
-main .chat-box .msg.me{
+main .chat-box .msg.me {
   justify-content: flex-end;
 }
 main .chat-box .msg.me .profile {
   text-align: right;
 }
-main .chat-box .msg.me p{
+main .chat-box .msg.me p {
   background: rgb(219, 216, 216);
   border-radius: 10px 0 10px 10px;
 }
-main form{
+main form {
   margin-top: 6px;
 }
-main .form-group{
-  width:100% ;
+main .form-group {
+  width: 100%;
   display: flex;
   grid-gap: 10px;
 }
-main .form-group input{
+main .form-group input {
   flex-grow: 1;
   padding: 10px 16px;
   border-radius: 5px;
@@ -238,18 +239,18 @@ main .form-group input{
   transition: all.3s ease;
   width: 100%;
 }
-main .form-group input:focus{
+main .form-group input:focus {
   box-shadow: 0 0 0 1px blue, 0 0 0 4px rgb(222, 222, 248);
 }
-main .btn-send{
+main .btn-send {
   padding: 0 16px;
   background: blue;
   border-radius: 5px;
-  color:whitesmoke ;
+  color: whitesmoke;
   cursor: pointer;
   border: none;
   transition: all.3s ease;
 }
-main .btn-send:hover{
+main .btn-send:hover {
   background: rgb(2, 2, 97);
 }
